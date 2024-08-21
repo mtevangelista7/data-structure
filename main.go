@@ -1,7 +1,7 @@
 package main
 
-import sequentiallinear "go-study/lists/sequential_linear"
+import stack "go-study/stack"
 
 func main() {
-	sequentiallinear.ExecuteAll()
+	stack.ExecuteAll()
 }

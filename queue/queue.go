@@ -4,10 +4,11 @@ type Queue struct {
 	itens []int
 }
 
+// todo: verificar, acho que isso da erro
 func Enqueue(queue *Queue, value int) {
 	size := Size(queue)
 	queue.itens = queue.itens[:size+1]
-	queue.itens[size] = value
+	queue.itens[size-1] = value
 }
 
 func Dequeue(queue *Queue) int {
