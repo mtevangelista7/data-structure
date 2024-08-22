@@ -1,7 +1,7 @@
 package main
 
-import stack "go-study/stack"
+import queue "go-study/queue"
 
 func main() {
-	stack.ExecuteAll()
+	queue.ExecuteAll()
 }
